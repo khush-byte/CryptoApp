@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CoinDetailActivity">
+    tools:context=".presentation.CoinDetailActivity">
 
     <ImageView
         android:id="@+id/ivLogoCoin"
@@ -14,7 +14,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:src="@mipmap/ic_launcher" />
+        tools:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/tvFromSymbol"
@@ -144,7 +145,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
-                android:textColor="@android:color/holo_green_dark"
+                android:textColor="#2E7D32"
                 android:textSize="16sp"
                 app:layout_constraintStart_toEndOf="@id/tvMaxPriceLabel"
                 app:layout_constraintTop_toBottomOf="@id/tvMinPriceLabel"

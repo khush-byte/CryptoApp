@@ -16,6 +16,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_margin="8dp"
+            android:contentDescription="@string/test_text"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@mipmap/ic_launcher" />
@@ -56,6 +57,7 @@
             android:textSize="14sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             tools:text="Время последнего обновления: 21:52:33" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
