@@ -5,6 +5,7 @@ apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion 33
+    namespace 'com.example.cryptoapp'
     defaultConfig {
         applicationId "com.example.cryptoapp"
         minSdkVersion 19
@@ -23,7 +24,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    namespace 'com.example.cryptoapp'
+    buildFeatures{
+        viewBinding true
+    }
 }
 
 dependencies {
