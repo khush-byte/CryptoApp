@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@mipmap/ic_launcher"
-        android:contentDescription="@string/todo" />
+        android:contentDescription="@string/test_text" />
 
     <TextView
         android:id="@+id/tvFromSymbol"
